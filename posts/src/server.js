@@ -25,4 +25,4 @@ app.post('/posts', (req, res) => {
   return res.status(201).send(posts[id])
 })
 
-app.listen(3333, () => console.log("Server is running..."))
+app.listen(3333, () => console.log("Listening on 3333"))

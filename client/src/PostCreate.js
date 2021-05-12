@@ -17,7 +17,7 @@ const PostCreate = () => {
   return (
     <div>
       <form onSubmit={onSubmit}>
-        <div className="form-group">
+        <div className="mb-3">
           <label>Title</label>
           <input
             value={title}
