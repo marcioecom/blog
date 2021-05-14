@@ -1,0 +1,16 @@
+{
+    "name": "events-bus",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "node-dev --no-notify src/server.js"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "node-dev": "^7.0.0"
+    }
+}
